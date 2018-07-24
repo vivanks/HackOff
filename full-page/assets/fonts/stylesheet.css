@@ -1,0 +1,54 @@
+@font-face {
+font-family: 'latobold';
+font-weight: normal;
+font-style: normal;
+src:url('lato-bold-webfont.woff2') format('woff2');
+}
+@font-face {
+font-family: 'latoheavy';
+font-weight: normal;
+font-style: normal;
+src:url('lato-heavy-webfont.woff2') format('woff2');
+}
+@font-face {
+font-family: 'latoheavy_italic';
+font-weight: normal;
+font-style: normal;
+src:url('lato-heavyitalic-webfont.woff2') format('woff2');
+}
+@font-face {
+font-family: 'latolight';
+font-weight: normal;
+font-style: normal;
+src:url('lato-light-webfont.woff2') format('woff2');
+}
+@font-face {
+font-family: 'latomedium';
+font-weight: normal;
+font-style: normal;
+src:url('lato-medium-webfont.woff2') format('woff2');
+}
+@font-face {
+font-family: 'latoregular';
+font-weight: normal;
+font-style: normal;
+src:url('lato-regular-webfont.woff2') format('woff2');
+}
+@font-face {
+font-family: 'latosemibold';
+font-weight: normal;
+font-style: normal;
+src:url('lato-semibold-webfont.woff2') format('woff2');
+}
+@font-face {
+font-family: 'latothin';
+font-weight: normal;
+font-style: normal;
+src:url('lato-thin-webfont.woff2') format('woff2');
+}
+@font-face {
+font-family: 'latothin_italic';
+font-weight: normal;
+font-style: normal;
+src:url('lato-thinitalic-webfont.woff2') format('woff2');
+}
