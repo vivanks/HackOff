@@ -1,11 +1,4 @@
 
-
-/*
-Author: XpeedStudio
-Author URI: http://themeforest.net/user/XpeedStudio/portfolio
-*/
-
-/* Portrait tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
     body {
         font-size: 15px;
