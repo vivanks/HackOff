@@ -520,8 +520,8 @@ input:-ms-input-placeholder {
 	margin-top:0px;
 }
 .main_menu_bg .navbar-default {
-    background-color: transparent; 
-    border-color: transparent; 
+    background-color: white; 
+    border-color: white; 
 	transition:.6s;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
@@ -542,7 +542,7 @@ input:-ms-input-placeholder {
 }
 .main_menu_bg .navbar-default .navbar-nav>.active>a{
     color: #e84c3d;
-    background-color: transparent;
+    background-color: white;
     border-bottom: 1px solid #FFF;
     margin-bottom: -1px;
     padding-bottom: 33px;
