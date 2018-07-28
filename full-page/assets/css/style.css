@@ -538,7 +538,7 @@ input:-ms-input-placeholder {
 .main_menu_bg .navbar {
     margin-bottom: 0px;
     border-bottom: 1px solid #686868;
-	min-height: 45px;
+	min-height: 90px;
 }
 .main_menu_bg .container-fluid {
     margin-top: 20px;
