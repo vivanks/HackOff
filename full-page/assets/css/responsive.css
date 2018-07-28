@@ -1,0 +1,127 @@
+
+
+/*
+Author: XpeedStudio
+Author URI: http://themeforest.net/user/XpeedStudio/portfolio
+*/
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        font-size: 15px;
+    }
+    
+
+}
+
+/* Portrait tablets and small desktops */
+@media  (min-width:769px) and (max-width: 991px) {
+    html {
+        font-size: 90%;
+    }
+    
+    
+    
+   
+
+
+}
+/* Landscape phones and portrait tablets */
+@media (min-width:480px) and (max-width: 768px) {
+    html {
+        font-size: 80%;
+    }
+    .sercelist {
+        padding: 10px;
+    }
+    .sercelist .single_dotcom_serce ul.list-inline.no-border li:after {
+        left: -13%;
+        top: -17%;
+    }
+    .single_pricing {
+        max-width: 80%;
+        margin: 30px auto;
+    }
+    .abouts_area .single_about {
+        border-right: 0px dashed #ddd;
+        padding-right: 0px;
+        max-width: 70%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .abouts_area .single_team{
+        margin-top: 20px;
+    }
+    
+    
+    .footer .fo_bottom_right {
+        border-right: 0px solid #686868;
+    } 
+    .footer .footer_menu{
+        text-align: center;
+        margin-top:20px;
+    }
+    .footer .single_right_footer{
+        margin-bottom:20px;
+        max-width: 80%;
+    }
+   
+    
+  
+   
+}
+
+
+
+/* Landscape phones and smaller */
+@media (min-width:320px) and (max-width: 479px) {
+    html {
+        font-size: 65%;
+    }
+    .abouts_area .single_about {
+        border-right: 0px dashed #ddd;
+        padding-right: 0px;
+        max-width: 70%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .footer .fo_bottom_right {
+        border-right: 0px solid #686868;
+    } 
+    .footer .footer_menu{
+        text-align: center;
+        margin-top:20px;
+    }
+    .footer .single_right_footer{
+        margin-bottom:20px;
+        max-width: 80%;
+    }
+    .sercelist {
+        padding: 0px;
+    }
+    .sercelist .single_dotcom_serce ul.list-inline.no-border li:after {
+        content: "";
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        left: -19%;
+        top: -15%;
+        border-radius: 50%;
+    }
+
+   
+
+}
+
+
+
+@media (max-width: 320px) {
+
+
+    html {
+        font-size: 60.5%;
+    }
+}
+
