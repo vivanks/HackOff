@@ -1,0 +1,4 @@
+User-agent: Googlebot
+Disallow:
+Allow:
+Sitemap:https://vivanks.github.io/hackoffproject/sitemap.xml
