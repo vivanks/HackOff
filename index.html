@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>Hack Off !</title>
@@ -19,9 +19,19 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
+	<style type="text/css">
+		body
+{
+padding:0px;
+margin:0px;
+width:100%;
+height:100%;
+}
+	</style>
 </head>
 <body>
 	
+	<div id="main"> 
 	
 	<div class="size1 bg0 where1-parent">
 		<!-- Coutdown -->
@@ -44,17 +54,17 @@
 
 			<div class="p-t-50 p-b-60">
 				<p class="m1-txt1 p-b-36">
-					<span class="m1-txt2">HACK OFF</span><br> is <span class="m1-txt2">Coming Soon</span>, follow us for update now!
+					<span class="m1-txt2">HACK OFF</span><br>follow us for update now!
 				</p>
 
 				<form class="contact100-form validate-form">
 					<div class="wrap-input100 m-b-10 validate-input" data-validate = "Name is required">
-						<input class="s2-txt1 placeholder0 input100" type="text" name="name" placeholder="Your Name">
+						<input id="name" class="s2-txt1 placeholder0 input100" type="text" name="name" placeholder="Your Name">
 						<span class="focus-input100"></span>
 					</div>
 
 					<div class="wrap-input100 m-b-20 validate-input" data-validate = "Email is required: ex@abc.xyz">
-						<input class="s2-txt1 placeholder0 input100" type="text" name="email" placeholder="Email Address">
+						<input id="email" class="s2-txt1 placeholder0 input100" type="text" name="email" placeholder="Email Address">
 						<span class="focus-input100"></span>
 					</div>
 
@@ -62,9 +72,10 @@
 						<p class="s2-txt3 p-t-18">
 					And don’t worry, we hate spam too! You can unsubcribe at anytime.
 				</p><br>
-						<button class="flex-c-m s2-txt2 size4 bg1 bor1 hov1 trans-04">
-							Subscribe
-						</button>
+						<button id="submitBtn" onclick="submitDetail()" name="submit" class="flex-c-m s2-txt2 size4 bg1 bor1 hov1 trans-04">
+							Submit
+							</button>
+						
 					</div>
 				</form>
 
@@ -93,7 +104,7 @@
 
 
 
-	
+	</div>
 
 <!--===============================================================================================-->	
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
@@ -141,6 +152,32 @@
         location.href = "full-page/index.html";
     };
 	</script>
+
+	 <script language="javascript">
+        function autoResizeDiv()
+        {
+            document.getElementById('main').style.height = window.innerHeight +'px';
+        }
+        window.onresize = autoResizeDiv;
+        autoResizeDiv();
+    </script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+
+	<script>
+  // Initialize Firebase
+  	var config = {
+    apiKey: "AIzaSyCMLQ1HeDQ1HKpQxWbm7lgkL_xtkKouVJ4",
+    authDomain: "hackoffproject-2aaae.firebaseapp.com",
+    databaseURL: "https://hackoffproject-2aaae.firebaseio.com",
+    projectId: "hackoffproject-2aaae",
+    storageBucket: "hackoffproject-2aaae.appspot.com",
+    messagingSenderId: "934840781553"
+  };
+  firebase.initializeApp(config);
+	</script>
+
+	<script type="text/javascript" src="js/firebase.js"></script>
 
 </body>
 </html>
