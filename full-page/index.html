@@ -29,19 +29,96 @@
         <link rel="stylesheet" href="assets/css/responsive.css" />
 
         <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        
+        <style>
+            .icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+                z-index: 5;
+}
+            .icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 28px;
+}
+
+.icon-bar a:hover {
+  background-color: dimgray;
+}
+
+.facebook {
+  background: ;
+  color: white;
+}
+
+.twitter {
+  background: transparent;
+  color: white;
+}
+
+.google {
+  background: transparent;
+  color: white;
+}
+
+.linkedin {
+  background: transparent;
+  color: white;
+}
+
+.youtube {
+  background: transparent;
+  color: white;
+}
+            @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+                        .icon-bar {
+  top: 10%;
+                            left: 30%;
+                            z-index: 5;
+                            
+  
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+            .icon-bar a {
+  display: inline-block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 28px;
+}
+
+.icon-bar a:hover {
+  background-color: dimgrey;
+}
+   
+            }
+    
+        </style>
     </head>
     <body data-spy="scroll" data-target="#navmenu">
       
 		<div class='preloader'><div class='loaded'>&nbsp;</div></div>
+        
         <!--Home page style-->
-        <header id="main_menu" class="header">
-            <div class="main_menu_bg ">
+        <!--
+        <header id="main_menu" class="header" style="position: static;align: center">
+            <div class="main_menu_bg style="align: center ">
                 <div class="container">
                     <div class="row">
                         <div class="nave_menu wow fadeInUp" data-wow-duration="1s">
-                            <nav class="navbar navbar-expand navbar-default" id="navmenu">
+                            <nav class="navbar navbar-expand navbar-default" id="navmenu" style="background: transparent;border: black">
                                 <div class="container-fluid">
-                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                    <!-- Brand and toggle get grouped for better mobile display ->
                                     <div class="navbar-header">
                                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                                             <span class="sr-only">Toggle navigation</span>
@@ -51,10 +128,10 @@
                                         </button>
                                         <a class="navbar-brand" href="#">
                                        
-                                        	<font color="black" size="20"><b>{ Hack Off }</b></font></a>
+                                        	<font color="white" size="20"><b>{ Hack Off }</b></font></a>
                                     </div>
 
-                                    <!-- Collect the nav links, forms, and other content for toggling -->
+                                    <!-- Collect the nav links, forms, and other content for toggling ->
                                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                                         <ul class="nav navbar-nav navbar-right">
@@ -72,8 +149,17 @@
                 </div>
 
             </div>
-        </header> <!--End of header -->
+        </header> <!--End of header --> 
 
+        <div class="icon-bar">
+  <a href="#home" class="facebook"><i class="fa fa-home"></i></a> 
+  <a href="#domain" class="twitter"><i class="fa fa-info"></i></a> 
+  <a href="#pricing" class="google"><i class="fa fa-at"></i></a> 
+  <a href="#" class="linkedin"><i class="fa fa-child"></i></a>
+  <a href="#footer" class="youtube"><i class="fa fa-envelope-o
+"></i></a> 
+</div>                                              
+                                                                 
 
 
         <section id="home" name="home" class="home">
@@ -342,7 +428,7 @@
             </div> 
         </section>
     --->
-        <!---
+        
         <section id="service" class="service">
             <div class="container">
                 <div class="row">
@@ -381,6 +467,94 @@
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="single_service wow fadeIn" data-wow-duration="1.7s">
+                                <div class="single_service_icon icon_three">
+                                    <a href=""><i class="fa fa-arrows"></i></a>
+                                </div>
+                                <div class="single_service_deatels">
+                                    <h4>Domain Transfer</h4>
+                                    <p>Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="single_service wow fadeIn" data-wow-duration="1.7s">
+                                <div class="single_service_icon icon_three">
+                                    <a href=""><i class="fa fa-arrows"></i></a>
+                                </div>
+                                <div class="single_service_deatels">
+                                    <h4>Domain Transfer</h4>
+                                    <p>Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="single_service wow fadeIn" data-wow-duration="1.7s">
+                                <div class="single_service_icon icon_three">
+                                    <a href=""><i class="fa fa-arrows"></i></a>
+                                </div>
+                                <div class="single_service_deatels">
+                                    <h4>Domain Transfer</h4>
+                                    <p>Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="single_service wow fadeIn" data-wow-duration="1.7s">
+                                <div class="single_service_icon icon_three">
+                                    <a href=""><i class="fa fa-arrows"></i></a>
+                                </div>
+                                <div class="single_service_deatels">
+                                    <h4>Domain Transfer</h4>
+                                    <p>Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="single_service wow fadeIn" data-wow-duration="1.7s">
+                                <div class="single_service_icon icon_three">
+                                    <a href=""><i class="fa fa-arrows"></i></a>
+                                </div>
+                                <div class="single_service_deatels">
+                                    <h4>Domain Transfer</h4>
+                                    <p>Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="single_service wow fadeIn" data-wow-duration="1.7s">
+                                <div class="single_service_icon icon_three">
+                                    <a href=""><i class="fa fa-arrows"></i></a>
+                                </div>
+                                <div class="single_service_deatels">
+                                    <h4>Domain Transfer</h4>
+                                    <p>Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="single_service wow fadeIn" data-wow-duration="1.7s">
+                                <div class="single_service_icon icon_three">
+                                    <a href=""><i class="fa fa-arrows"></i></a>
+                                </div>
+                                <div class="single_service_deatels">
+                                    <h4>Domain Transfer</h4>
+                                    <p>Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="single_service wow fadeIn" data-wow-duration="1.7s">
+                                <div class="single_service_icon icon_three">
+                                    <a href=""><i class="fa fa-arrows"></i></a>
+                                </div>
+                                <div class="single_service_deatels">
+                                    <h4>Domain Transfer</h4>
+                                    <p>Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
                             <div class="single_service wow fadeIn" data-wow-duration="2s">
                                 <div class="single_service_icon icon_four">
                                     <a href=""><i class="fa fa-comments"></i></a>
@@ -394,7 +568,7 @@
                     </div>
                 </div>
             </div>
-        </section> End of service Section -->
+        </section> 
 
 
 
@@ -451,15 +625,7 @@
             </div>
         </section><!-- End of footer3 section -->
 		
-		<footer id="coppyrights" class="coppyrights">
-			<div class="container-fluid">
-			<div class="row">
-				<div class="coppyright">
-					<p class="wow fadeInUp" data-wow-duration="2s">Made with <i class="fa fa-heart"></i> by <strong>Vivank Sharma</strong> 2018. All Rights Reserved</p>
-				</div>
-			</div>
-			</div>
-		</footer>
+		
 
 
 
