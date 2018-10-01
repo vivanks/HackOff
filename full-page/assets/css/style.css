@@ -1153,7 +1153,7 @@ i:hover{
 
 
 .accordionTitle {
-  background-color: #2fac6c;
+  background-color: ;
   border-bottom: 1px solid #2c3e50;
 }
 .accordionTitle:before {
@@ -1182,6 +1182,7 @@ i:hover{
 .accordionItem {
   height: auto;
   overflow: hidden;
+  text-decoration-color: black;
 }
 @media all {
   .accordionItem {
