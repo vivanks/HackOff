@@ -1183,7 +1183,6 @@ i:hover{
   height: auto;
   overflow: hidden;
   text-decoration-color: black;
-  opacity: 1;
 }
 @media all {
   .accordionItem {
