@@ -3,10 +3,10 @@
 
 jQuery(document).ready(function ($) {
 
-	$(window).load(function () {
-		$(".loaded").fadeOut();
-		$(".preloader").delay(1000).fadeOut("slow");
-	});
+  $(window).load(function () {
+    $(".loaded").fadeOut();
+    $(".preloader").delay(1000).fadeOut("slow");
+  });
     /*---------------------------------------------*
      * Mobile menu
      ---------------------------------------------*/
@@ -88,8 +88,8 @@ jQuery(document).ready(function ($) {
         items: 1,
         loop: true,
         dots: true,
-	    nav:false,
-	    navText: [
+      nav:false,
+      navText: [
                     "<i class='lnr lnr-chevron-left'></i>",
                     "<i class='lnr lnr-chevron-right'></i>"
                 ],
@@ -99,9 +99,9 @@ jQuery(document).ready(function ($) {
 
 
 
-	
-//	$('.chart').easyPieChart({
-//		animate: 2000,
+  
+//  $('.chart').easyPieChart({
+//    animate: 2000,
 //           scaleColor: false,
 //            lineWidth: 10,
 //            lineCap: 'square',
@@ -111,8 +111,8 @@ jQuery(document).ready(function ($) {
 //            onStep: function (from, to, percent) {
 //                $(this.el).find('.percent').text(Math.round(percent));
 //            }
-//	});
-	
+//  });
+  
 
 
 
@@ -126,8 +126,8 @@ jQuery(document).ready(function ($) {
 
 
 
-	
-	    
+  
+      
 //$('#test').mixItUp({
 //    animation: {
 //      animateResizeContainer: false,
@@ -137,18 +137,18 @@ jQuery(document).ready(function ($) {
 
 // main-menu-scroll
 
-	jQuery(window).scroll(function () {
-	  var top = jQuery(document).scrollTop();
-		var height = 300;
-	  //alert(batas);
-	  
-	  if (top > height) {
-		jQuery('.navbar-fixed-top').addClass('menu-scroll');
-	  } else {
-	   jQuery('.navbar-fixed-top').removeClass('menu-scroll');
-	  }
-	});	 
-	
+  jQuery(window).scroll(function () {
+    var top = jQuery(document).scrollTop();
+    var height = 300;
+    //alert(batas);
+    
+    if (top > height) {
+    jQuery('.navbar-fixed-top').addClass('menu-scroll');
+    } else {
+     jQuery('.navbar-fixed-top').removeClass('menu-scroll');
+    }
+  });  
+  
 // scroll Up
 
     $(window).scroll(function(){
@@ -161,7 +161,7 @@ jQuery(document).ready(function ($) {
     $('.scrollup').click(function(){
         $("html, body").animate({ scrollTop: 0 }, 1000);
         return false;
-    });	
+    }); 
    
 
     //End
