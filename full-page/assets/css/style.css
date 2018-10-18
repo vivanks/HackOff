@@ -728,6 +728,7 @@ input:-ms-input-placeholder {
 .pricing_content{
     width:100%;
     margin:0 auto;
+    padding: 40px;
 }
 /*.pricing .pricing_head .icon_area{
     border-top-left-radius: 10px;
@@ -1133,13 +1134,14 @@ i:hover{
   -webkit-transition: background-color 0.5s ease-in-out;
 }
 .accordion dd {
-  background-color: #1abc9c;
-  color:#fafafa;
+  background-color: transparent;
+  color:green;
   font-size: 1em;
   line-height: 1.5em;
 }
 .accordion dd > p {
   padding: 1em 2em 1em 2em;
+
 }
 
 .accordion {
@@ -1147,7 +1149,8 @@ i:hover{
   background-color: transparent;
   max-width: 80%;
   margin: 0 auto;
-  padding: 2em 0 2em 0;
+  padding: 2em 0 2em 4em;
+  color: white;
 }
 
 
@@ -1182,8 +1185,13 @@ i:hover{
 .accordionItem {
   height: auto;
   overflow: hidden;
-  text-decoration-color: black;
+  text-decoration-color: white;
   opacity: 1;
+  border-style: solid;
+  border-width: 0 0 0 5px;
+  border-color: #21d4ee;
+  border-spacing: 10px;
+  margin: 0 0 0 30px;
 }
 @media all {
   .accordionItem {
@@ -1206,6 +1214,7 @@ i:hover{
 
 .accordionItemCollapsed {
   max-height: 0;
+  color: white;
 }
 
 .animateIn {
