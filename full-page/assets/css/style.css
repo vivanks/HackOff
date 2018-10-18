@@ -1133,13 +1133,13 @@ i:hover{
   -webkit-transition: background-color 0.5s ease-in-out;
 }
 .accordion dd {
-  background-color: #1abc9c;
+  background-color: rgba(26,188,156, 0.8)
   color:#fafafa;
   font-size: 1em;
   line-height: 1.5em;
 }
 .accordion dd > p {
-  padding: 1em 2em 1em 2em;
+  padding: 1em 2em 1em 5em;
 }
 
 .accordion {
