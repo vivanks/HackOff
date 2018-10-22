@@ -1135,7 +1135,11 @@ i:hover{
 }
 .accordion dd {
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(26,188,156, 0.8)
+=======
+  background-color: #1abc9c;
+>>>>>>> parent of 52553e1... NAV
   color:#fafafa;
 =======
   background-color: transparent;
@@ -1146,11 +1150,15 @@ i:hover{
 }
 .accordion dd > p {
 <<<<<<< HEAD
+<<<<<<< HEAD
   padding: 1em 2em 1em 5em;
 =======
   padding: 1em 2em 1em 2em;
 
 >>>>>>> 2f0faee82c32f151b74379935bac8a7bc8803dd1
+=======
+  padding: 1em 2em 1em 2em;
+>>>>>>> parent of 52553e1... NAV
 }
 
 .accordion {
