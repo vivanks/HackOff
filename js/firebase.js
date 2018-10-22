@@ -11,7 +11,7 @@ function submitDetail(){
 
 	var nText = nameText.value;
 	var eText = emailText.value;
-		
+
 	firebaseRef.push().set({
 		name : nText,
 		email : eText
