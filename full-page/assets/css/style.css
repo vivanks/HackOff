@@ -1464,7 +1464,7 @@ i:hover{
     /* For mobile phones: */
                         .icon-bar {
   top: 3%;
-                            left: 10%;
+                            
                             z-index: 5;
                             background: rgba(200,200,200,0.8);
 
