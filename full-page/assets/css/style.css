@@ -1121,10 +1121,11 @@ i:hover{
 }
 
 
-.accordion dl {
+. dl {
 }
 
 .accordion dt > a {
+
   text-align: center;
   font-weight: 700;
   padding: 2em;
@@ -1162,6 +1163,7 @@ i:hover{
 }
 
 .accordion {
+    
   position: relative;
   background-color: transparent;
   max-width: 80%;
@@ -1212,6 +1214,7 @@ i:hover{
 }
 @media all {
   .accordionItem {
+
     max-height: 50em;
     -moz-transition: max-height 1s;
     -o-transition: max-height 1s;
@@ -1221,6 +1224,7 @@ i:hover{
 }
 @media screen and (min-width: 48em) {
   .accordionItem {
+
     max-height: 15em;
     -moz-transition: max-height 0.5s;
     -o-transition: max-height 0.5s;
@@ -1460,7 +1464,7 @@ i:hover{
     /* For mobile phones: */
                         .icon-bar {
   top: 3%;
-                            left: 10%;
+                            left: 25%;
                             z-index: 5;
                             background: rgba(200,200,200,0.8);
 
