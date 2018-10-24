@@ -1167,7 +1167,7 @@ i:hover{
   position: relative;
   background-color: transparent;
   max-width: 80%;
-  margin: 0 auto;
+  margin: 0 ;
   padding: 2em 0 2em 4em;
   color: white;
 }
@@ -1464,7 +1464,7 @@ i:hover{
     /* For mobile phones: */
                         .icon-bar {
   top: 3%;
-                            margin-left: 20px;
+                            left: 28%;
                             z-index: 5;
                             background: rgba(200,200,200,0.8);
 
