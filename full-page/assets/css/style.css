@@ -1167,7 +1167,7 @@ i:hover{
   position: relative;
   background-color: transparent;
   max-width: 80%;
-  margin: 0 ;
+  margin: 0 auto;
   padding: 2em 0 2em 4em;
   color: white;
 }
@@ -1400,6 +1400,19 @@ i:hover{
 }
 
 @media only screen and (max-width: 768px) {
+
+
+    .accordion {
+
+  position: relative;
+  background-color: transparent;
+  max-width: 80%;
+  margin: 0 ;
+  padding: 2em 0 2em 4em;
+  color: white;
+}
+
+
     .columns {
         width: 100%;
     }
