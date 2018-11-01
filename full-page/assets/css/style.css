@@ -644,7 +644,7 @@ input:-ms-input-placeholder {
 }
 .head_title h2{
     font-size: 1.5rem;
-    color:#383737;
+    color:rgb(249, 243, 213);
     font-family: 'latoheavy';
 }
 .head_title p{
@@ -1027,6 +1027,10 @@ input:-ms-input-placeholder {
 }
 .footer .footer_logo{
     text-align: left;
+}
+.vitlogo_right{
+  margin-left: 850px;
+  margin-top: -120px;
 }
 .footer .footer_menu{
     text-align: right;
@@ -1486,6 +1490,11 @@ i:hover{
   color: white;
 }
             @media only screen and (max-width: 768px) {
+
+              .vitlogo_right{
+                margin-left:0 ;
+                margin-top: 50px;
+              }
     /* For mobile phones: */
                         .icon-bar {
   top: 3%;
