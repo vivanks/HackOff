@@ -5,11 +5,11 @@
 
 */
 /* ==========================================================================
-   
+
    ========================================================================== */
 html,
 body {
-    background-image: linear-gradient(to right, #000000, #434343 );
+    background-image: linear-gradient(to right, #222233, #243b55 );
     font-size: 15px;
     color: #565656;
     width: 100%;
@@ -18,9 +18,10 @@ body {
     margin-right: 0;
     font-family: 'roboto', sans-serif;
     font-weight: 300;
+
 }
 /*==========================================
-PRE LOADER 
+PRE LOADER
 ==========================================*/
 
 .preloader {
@@ -96,7 +97,7 @@ p {
     margin: 0 0 15px;
 }
 a, p{
- font-family: 'latolight';   
+ font-family: 'latolight';
 }
 .clear {
     clear: both;
@@ -351,7 +352,7 @@ Button
     color: #fff;
     background-color: #ea6060;
     border-color: #ea6060;
-    transition: .6s;    
+    transition: .6s;
 }
 
 .pink-btn {
@@ -514,24 +515,24 @@ input:-ms-input-placeholder {
     padding-top: 0px;
     padding-bottom: 0px;
     position: static;
-    top: 0; 
-    left: 0; 
-    right: 0; 
+    top: 0;
+    left: 0;
+    right: 0;
     z-index: 300;
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     background-color: #3d3325;
-    
+
 }
 
 .main_menu_bg{
     margin-top:0px;
     margin: 0px;
-    
+
 }
 .main_menu_bg .navbar-default {
-    background-color: white; 
-    border-color: white; 
+    background-color: white;
+    border-color: white;
     transition:.6s;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
@@ -556,7 +557,7 @@ input:-ms-input-placeholder {
     border-bottom: 1px solid #FFF;
     margin-bottom: -1px;
     padding-bottom: 33px;
-    
+
 }
 
 
@@ -564,8 +565,9 @@ input:-ms-input-placeholder {
 /* Home Section */
 .home{
     background: url(../images/bg01.jpg)  10% 10%;
-    background-size: auto;
+    background-size:cover;
     text-align: center;
+    background-repeat: no-repeat;
 }
 
 
@@ -614,14 +616,14 @@ input:-ms-input-placeholder {
     overflow: hidden;
 }
 .register .single_login{
-    background: #21424a;
+    background: rgb(0,255,255);
 }
 .single_register{
-    background: #2fac6c;
+    background: rgb(0,255,255);
     transform: skewX(-20deg);
 }
 .single_register a{
-    color: #fff;
+    color: black;
     font-size: 1.375rem;
     font-family: 'lotobold';
     text-transform: uppercase;
@@ -647,7 +649,7 @@ input:-ms-input-placeholder {
 }
 .head_title p{
     font-size:1rem ;
-    color:#a2a2a2;
+    color:#AACCFF;
     font-family: 'latolight';
 }
 .input-group-addon {
@@ -657,7 +659,7 @@ input:-ms-input-placeholder {
     line-height: 1;
     color: #555;
     text-align: center;
-    background-color: transparent; 
+    background-color: transparent;
     border: 1px solid #ccc;
     border-radius: 1px;
 }
@@ -691,11 +693,11 @@ input:-ms-input-placeholder {
 
 .sercelist .list-inline>li:last-child {
     border-right: 0px solid #ddd;
-    
+
 }
 .sercelist .list-inline.no-border>li {
     border-bottom: 0px solid #ddd;
-    
+
 }
 .sercelist .single_dotcom_serce ul.list-inline li{
     position: relative;
@@ -728,7 +730,7 @@ input:-ms-input-placeholder {
 .pricing_content{
     width:100%;
     margin:0 auto;
-    
+
 }
 /*.pricing .pricing_head .icon_area{
     border-top-left-radius: 10px;
@@ -767,19 +769,28 @@ input:-ms-input-placeholder {
     padding:20px;
     border-radius: 50%;
     display: inline-block;
-    border-top:5px solid #ff0000;   
+    border-top:5px solid #ff0000;
 }
 .single_pricing.pricing_color_one{
-    border-top:5px solid #ffcc33;
+    border-top:5px solid rgb(0 185 255);
 }
 .single_pricing.pricing_color_two{
-    border-top:5px solid #7f8c8d;
+    border-top:5px solid rgb(0 200 255);
 }
 .single_pricing.pricing_color_three{
-    border-top:5px solid #f85f40;
+    border-top:5px solid rgb(0 255 230);
 }
 .single_pricing.pricing_color_four{
-    border-top:5px solid #1abc9c;
+    border-top:5px solid rgb(0 200 245);
+}
+.single_pricing.pricing_color_five{
+    border-top:5px solid rgb(0 255 140);
+}
+.single_pricing.pricing_color_six{
+    border-top:5px solid rgb(0 255 10);
+}
+.single_pricing.pricing_color_seven{
+    border-top:5px solid yellow;
 }
 
 .single_pricing{
@@ -845,7 +856,7 @@ input:-ms-input-placeholder {
 .single_pricing footer.pricing_footer h3 span.month{
     font-size:0.8125rem;
     font-family: 'latoregular';
-    
+
 }
 .single_pricing footer.pricing_footer a{
     font-size:0.9875rem;
@@ -884,12 +895,12 @@ input:-ms-input-placeholder {
 .abouts_area .single_about h3{
     font-size:2.1875rem;
     font-family: 'latosemibold';
-        
+
 }
 .abouts_area .single_about p{
     font-size:1.125rem;
     font-family: 'latothin';
-        
+
 }
 
 
@@ -906,12 +917,12 @@ input:-ms-input-placeholder {
     font-size:1.0625rem;
     color:#303030;
     margin-bottom: 0px;
-    
+
 }
 .abouts_area .single_team .team_deatels p{
     color:#8e8e8e;
     font-size:0.9375rem;
-    
+
 }
 .abouts_area .single_team .team_deatels .team_socail{
     margin-left:-15px;
@@ -940,11 +951,11 @@ input:-ms-input-placeholder {
 
 .comments .single_comments p{
     max-width: 70%;
-    margin: 20px auto;  
+    margin: 20px auto;
     color:#fff;
     font-size:1.25rem;
 }
-.comments .single_comments a{  
+.comments .single_comments a{
     color:#fff;
     font-size:1.25rem;
 }
@@ -977,24 +988,24 @@ input:-ms-input-placeholder {
     color: #fff;
     border-radius: 50%;
     text-align: center;
-    
+
 }
 .single_service .single_service_icon.icon_one a i{
-    background: #f1c40f;  
+    background: #f1c40f;
 }
 .single_service .single_service_icon.icon_two a i{
-    background: #0faff1;  
+    background: #0faff1;
 }
 .single_service .single_service_icon.icon_three a i{
-    background: #95a5a6; 
+    background: #95a5a6;
 }
 .single_service .single_service_icon.icon_four a i{
-    background: #f1540f; 
+    background: #f1540f;
 }
 .single_service .single_service_deatels h4{
     font-size:1.125rem;
     margin-bottom: 0px;
-    
+
 }
 .single_service .single_service_deatels p{
     font-size: 1.01rem
@@ -1003,7 +1014,8 @@ input:-ms-input-placeholder {
 
 /*footer section */
 .footer{
-    background: #2a2a2a;
+
+    background: darkgray;
     padding: 80px 0px;
 }
 .footer .main_footer{
@@ -1041,7 +1053,7 @@ i:hover{
 }
 .footer .fo_bottom_right{
     border-right:1px solid #686868;
-    margin-top:20px;   
+    margin-top:20px;
 }
 
 .footer .fo_bottom_socail{
@@ -1499,5 +1511,3 @@ i:hover{
 }
 
             }
-
-
