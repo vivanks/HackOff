@@ -82,8 +82,9 @@ input.input100 {
   top: -2px;
   left: -2px;
   pointer-events: none;
-  border: 2px solid #57b846;
+  border: 2px solid #25dbcc;
   border-radius: 5px;
+  
 
   visibility: hidden;
   opacity: 0;
@@ -319,8 +320,8 @@ input.input100 {
 
 /*//////////////////////////////////////////////////////////////////
 [ Background ]*/
-.bg0 {background-color: #fff;}
-.bg1 {background-color: #57b846;}
+.bg0 {background-color: #000000;}
+.bg1 {background-color: #25dbcc;}
 .bg3 {background-color: #3b5998;}
 .bg4 {background-color: #1da1f2;}
 .bg5 {background-color: #cd201f;}
@@ -416,7 +417,7 @@ input.input100 {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(63, 75, 40, 0.123);
 }
 
 .overlay1::after {
@@ -428,7 +429,7 @@ input.input100 {
   right: 100%;
   width: 10000px;
   height: 100%;
-  background-color: #fff;
+  background-color:#000000;
   transform-origin: bottom right;
   -webkit-transform: skewX(156deg);
   -moz-transform: skewX(156deg);
@@ -465,7 +466,7 @@ input.input100 {
 .hov-bg0:hover {background-color: #fff;}
 /*---------------------------------------------*/
 .hov1:hover {
-  background-color: #555555;
+  background-color: #26fa1f;
 }
 
 
